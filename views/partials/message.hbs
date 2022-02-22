@@ -1,0 +1,22 @@
+
+{{#if success}}
+       <div class="container p-2">
+             <div class="alert alert-success flash-container">
+                {{success}}
+       <button type="button" class="btn btn-success" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+         </div>
+       </div>
+    {{/if}}
+
+{{#if fail}}
+       <div class="container p-2">
+             <div class="alert alert-danger flash-container">
+            {{fail}}
+                <button type="button" class="btn btn-danger" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+             </div>
+           </div>
+    {{/if}}

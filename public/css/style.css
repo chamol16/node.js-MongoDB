@@ -1,0 +1,24 @@
+
+body{
+  background: #1f4037;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.flash-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer > p {
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+    text-align: center;
+  }
